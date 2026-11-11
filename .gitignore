@@ -1,0 +1,26 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Raw datasets and generated CSV files
+data/
+output/
+
+# Mac files
+.DS_Store
+
+# VS Code local settings
+.vscode/
